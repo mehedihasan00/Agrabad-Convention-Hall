@@ -77,6 +77,12 @@
           }, 600);
           return false;
         });
+
+
+        // Glight Box
+        const galleryLightbox = GLightbox({
+          selector: '.gallery-lightbox'
+        });
   
     });      
   

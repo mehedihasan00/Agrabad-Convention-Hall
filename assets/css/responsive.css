@@ -182,4 +182,9 @@
     .contact-map .container-form {
       width: 350px;
     }
+    #gallery .gallery-padding .item-view i {
+      font-size: 20px;
+      margin-top: 9px;
+      margin-left: 4px;
+    }
   }

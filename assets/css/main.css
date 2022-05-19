@@ -88,7 +88,7 @@ ul li, ol li {
 }
 
 .section-title-header p {
-  text: center;
+  text-align: center;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px;
@@ -115,12 +115,13 @@ ul li, ol li {
   bottom: 10px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #0eacf3;
+  background-color: #ac1e6c
+  /* background-color: #0eacf3; */
 }
 
 .section-subcontent {
   font-size: 16px;
-  text: center;
+  text-align: center;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px;
@@ -157,7 +158,7 @@ ul li, ol li {
 .inner-title {
   font-size: 24px;
   font-weight: 700;
-  text-tranform: capitalize;
+  text-transform: capitalize;
 }
 
 .page-tagline {
@@ -476,7 +477,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #roof .quick-contacts span a:hover {
-  color: #0eacf3;
+  color: #ad1f6d;
 }
 
 #roof .quick-contacts span i {
@@ -518,7 +519,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
-  color: #0eacf3 !important;
+  color: #ad1f6d !important;
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
@@ -545,7 +546,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  color: #0eacf3;
+  color: #ad1f6d;
   outline: none;
 }
 
@@ -555,7 +556,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar li.active a.nav-link {
   color: #fff !important;
-  background: #0eacf3;
+  background: #ad1f6d;
 }
 
 .dropdown-toggle::after {
@@ -1204,7 +1205,86 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: inline-block;
 }
 
-/* Conact Home Page Section */
+/* gallery item section */
+.gallery-padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#gallery .gallery-padding .col-sm-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+#gallery .gallery-padding .col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+#gallery .gallery-padding .col-lg-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+#gallery .gallery-padding .card {
+  overflow: hidden;
+}
+#gallery .gallery-padding .card-img-top {
+  height: 180px;
+  transition: all 0.2s ease-in-out;
+}
+#gallery .gallery-padding .card:hover .card-img-top {
+  transform: scale(1.05);
+}
+#gallery .gallery-padding .image-black-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#gallery .gallery-padding .item-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 36px;
+  width: 36px;
+  color: #ac1e6c;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: scale(0);
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+#gallery .gallery-padding .item-view  i {
+  font-size: 22px;
+  margin-top: 7px;
+  margin-left: 4px;
+}
+#gallery .gallery-padding .image-black-cover::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(56, 66, 77, 0.85);
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+#gallery .gallery-padding .card:hover .image-black-cover::before {
+  height: 100%;
+}
+#gallery .gallery-padding .card:hover .item-view {
+  transform: scale(1);
+  visibility: visible;
+}
+/* end gallery item section */
+
+/* Contact Home Page Section */
 .contact {
   background: #111111;
 }
