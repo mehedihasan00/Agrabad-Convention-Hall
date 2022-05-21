@@ -8,7 +8,7 @@
      <!--====== Favicon Icon ======-->
      <link rel="shortcut icon" href="assets/img/logo/agrabad-logo-designhill_180x80.png" type="image/png">
 
-    <title>ONevent - Event and Conference Template</title>
+    <title>Agrabad Convention Hall</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
@@ -28,12 +28,29 @@
 </head>
 
 <body>
-
+    <div id="topbar" class="topbar">
+        <div class="container">
+            <div class="nav-box d-flex justify-content-md-between">
+                <div class="address text-center">
+                    <span class="phone">
+                        <i class="fal fa-phone-alt"></i>
+                        +8801715-566671
+                    </span>
+                    <i class="fal fa-map-marker-alt"></i>
+                    <span>Fatema Heights (1st Floor) 16, Agrabad C/A, Chittagong-4100</span>
+                </div>
+                <div class="icon d-none d-md-block">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </div>
     <header id="header-wrap">
-
-        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar" id="white-bg">
+        <nav class="navbar navbar-expand-lg scrolling-navbar" id="white-bg">
             <div class="container">
-
                 <div class="navbar-header">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
                         aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,13 +69,28 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#about">
+                            <a class="nav-link page-scroll" href="about-us.html">
                                 About
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#team">
-                                Team
+                            <a class="nav-link page-scroll" href="service.html">
+                                Service
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="team.html">
+                                Management
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="gallery.html">
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="videos.html">
+                                Videos
                             </a>
                         </li>
                         <li class="nav-item">
@@ -117,9 +149,10 @@
                 </li>
             </ul>
 
-        </nav>
+        </nav>    
+    </header>
 
-
+    <section id="slider">
         <div id="main-slide" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#main-slide" data-slide-to="0" class="active"></li>
@@ -169,9 +202,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
-    </header>
-
+    </section>
 
     <section id="about" class="section-padding">
         <div class="container">
@@ -187,7 +218,7 @@
                         distinctio maiores possimus! Suscipit officiis reiciendis vitae omnis eligendi? Tempora at ullam
                         repudiandae, magnam nemo fuga omnis.</p>
                     <div class="mt-3 mb-3">
-                        <a href="#" class="btn btn-common">Read More</a>
+                        <a href="about-us.html" class="btn btn-common">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
@@ -197,22 +228,275 @@
         </div>
     </section>
 
-
-    <section class="countdown-timer section-padding">
+    <section id="service" class="section-padding text-center">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="heading-count">
-                        <h2 class="wow fadeInDown" data-wow-delay="0.2s">A Great Event for Web Designers</h2>
-                        <h4 class="location wow fadeIn" data-wow-delay="0.4s"><span><i class="fal fa-map-marker-alt"></i>
-                                Marriott Marquis, San Francisco, CA</span></h4>
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title-header text-center">
+                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Services & Events</h1>
+                        <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing <br> elit, sed do eiusmod tempor</p>
                     </div>
                 </div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div id="clock" class="time-count"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+                    <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
+                       <div class="image-box">
+                           <img src="assets/img/service/wedding.jpg" class="service-img" alt="" srcset="">
+                       </div>
+                       <div class="service-title">
+                            <h5>Wedding</h5>
+                       </div>
+                       <a href="" class="btn btn-detail">Detail</a>
                     </div>
-                    <a href="#pricing" class="btn btn-common wow fadeInUp" data-wow-delay="0.3s">Book Your Ticket</a>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+                    <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
+                       <div class="image-box">
+                           <img src="assets/img/service/birthday.jpg" class="service-img" alt="" srcset="">
+                       </div>
+                       <div class="service-title">
+                            <h5>Birthday</h5>
+                       </div>
+                       <a href="#" class="btn btn-detail">Detail</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+                    <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
+                       <div class="image-box">
+                           <img src="assets/img/service/engagement.jpg" class="service-img" alt="" srcset="">
+                       </div>
+                       <div class="service-title">
+                            <h5>Engagement</h5>
+                       </div>
+                       <a href="#" class="btn btn-detail">Detail</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+                    <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
+                       <div class="image-box">
+                           <img src="assets/img/service/gaye-holud.jpg" class="service-img" alt="" srcset="">
+                       </div>
+                       <div class="service-title">
+                            <h5>Gaye Holud</h5>
+                       </div>
+                       <a href="#" class="btn btn-detail">Detail</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+                    <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
+                       <div class="image-box">
+                           <img src="assets/img/service/iftar-party.jpg" class="service-img" alt="" srcset="">
+                       </div>
+                       <div class="service-title">
+                            <h5>Iftar Party</h5>
+                       </div>
+                       <a href="#" class="btn btn-detail">Detail</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+                    <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
+                       <div class="image-box">
+                           <img src="assets/img/service/office-meeting.jpg" class="service-img" alt="" srcset="">
+                       </div>
+                       <div class="service-title">
+                            <h5>Office Meeting</h5>
+                       </div>
+                       <a href="#" class="btn btn-detail">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section-padding text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title-header text-center">
+                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Management</h1>
+                        <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing <br> elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="team-item text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/img/team/team-01.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="overlay-social-icon text-center">
+                                    <ul class="social-icons">
+                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            <h3><a href="#">Emilly Williams</a></h3>
+                            <p>Product Designer, Tesla</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+
+                    <div class="team-item text-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/img/team/team-02.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="overlay-social-icon text-center">
+                                    <ul class="social-icons">
+                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            <h3><a href="#">Patric Green</a></h3>
+                            <p>Front-end Developer, Dropbox</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+
+                    <div class="team-item text-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/img/team/team-03.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="overlay-social-icon text-center">
+                                    <ul class="social-icons">
+                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            <h3><a href="#">Paul Kowalsy</a></h3>
+                            <p>Lead Designer, TNW</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+
+                    <div class="team-item text-center wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/img/team/team-04.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="overlay-social-icon text-center">
+                                    <ul class="social-icons">
+                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            <h3><a href="#">Jhon Doe</a></h3>
+                            <p>Back-end Developer, ASUS</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="team-item text-center wow fadeInUp" data-wow-delay="1s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/img/team/team-05.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="overlay-social-icon text-center">
+                                    <ul class="social-icons">
+                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            <h3><a href="#">Daryl Dixon</a></h3>
+                            <p>Full-stack Developer, Google</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+
+                    <div class="team-item text-center wow fadeInUp" data-wow-delay="1.2s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/img/team/team-06.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="overlay-social-icon text-center">
+                                    <ul class="social-icons">
+                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            <h3><a href="#">Chris Adams</a></h3>
+                            <p>UI Designer, Apple</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+
+                    <div class="team-item text-center wow fadeInUp" data-wow-delay="1.4s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/img/team/team-07.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="overlay-social-icon text-center">
+                                    <ul class="social-icons">
+                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            <h3><a href="#">Lisa Amaira</a></h3>
+                            <p>Product Manager, Uber</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+
+                    <div class="team-item text-center wow fadeInUp" data-wow-delay="1.6s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/img/team/team-08.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="overlay-social-icon text-center">
+                                    <ul class="social-icons">
+                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            <h3><a href="#">Rick Grimes</a></h3>
+                            <p>QA, Samsung</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -223,7 +507,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title-header text-center">
-                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Our Gallery</h1>
+                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Photo Gallery</h1>
                         <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur
                             adipiscing <br> elit, sed do eiusmod tempor</p>
                     </div>
@@ -356,199 +640,36 @@
         </div>
     </section>
 
-    <section id="team" class="section-padding text-center">
+    <section id="video-gallery" class="section-padding text-center">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title-header text-center">
-                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Our Team</h1>
+                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Latest Videos</h1>
                         <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur
                             adipiscing <br> elit, sed do eiusmod tempor</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <div class="team-item text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/img/team/team-01.jpg" alt="">
-                            <div class="team-overlay">
-                                <div class="overlay-social-icon text-center">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-text">
-                            <h3><a href="#">Emilly Williams</a></h3>
-                            <p>Product Designer, Tesla</p>
-                        </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="video-item wow fadeInUp" data-wow-delay="0.2s">
+                        <iframe width="100%" height="196" src="https://www.youtube.com/embed/8Fbhi2izN0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                     </div>
-
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-
-                    <div class="team-item text-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/img/team/team-02.jpg" alt="">
-                            <div class="team-overlay">
-                                <div class="overlay-social-icon text-center">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-text">
-                            <h3><a href="#">Patric Green</a></h3>
-                            <p>Front-end Developer, Dropbox</p>
-                        </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="video-item wow fadeInUp" data-wow-delay="0.2s">
+                        <iframe width="100%" height="196" src="https://www.youtube.com/embed/8Fbhi2izN0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                     </div>
-
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-
-                    <div class="team-item text-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/img/team/team-03.jpg" alt="">
-                            <div class="team-overlay">
-                                <div class="overlay-social-icon text-center">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-text">
-                            <h3><a href="#">Paul Kowalsy</a></h3>
-                            <p>Lead Designer, TNW</p>
-                        </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="video-item wow fadeInUp" data-wow-delay="0.2s">
+                        <iframe width="100%" height="196" src="https://www.youtube.com/embed/8Fbhi2izN0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                     </div>
-
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-
-                    <div class="team-item text-center wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/img/team/team-04.jpg" alt="">
-                            <div class="team-overlay">
-                                <div class="overlay-social-icon text-center">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-text">
-                            <h3><a href="#">Jhon Doe</a></h3>
-                            <p>Back-end Developer, ASUS</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-3">
-
-                    <div class="team-item text-center wow fadeInUp" data-wow-delay="1s">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/img/team/team-05.jpg" alt="">
-                            <div class="team-overlay">
-                                <div class="overlay-social-icon text-center">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-text">
-                            <h3><a href="#">Daryl Dixon</a></h3>
-                            <p>Full-stack Developer, Google</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-
-                    <div class="team-item text-center wow fadeInUp" data-wow-delay="1.2s">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/img/team/team-06.jpg" alt="">
-                            <div class="team-overlay">
-                                <div class="overlay-social-icon text-center">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-text">
-                            <h3><a href="#">Chris Adams</a></h3>
-                            <p>UI Designer, Apple</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-
-                    <div class="team-item text-center wow fadeInUp" data-wow-delay="1.4s">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/img/team/team-07.jpg" alt="">
-                            <div class="team-overlay">
-                                <div class="overlay-social-icon text-center">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-text">
-                            <h3><a href="#">Lisa Amaira</a></h3>
-                            <p>Product Manager, Uber</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-
-                    <div class="team-item text-center wow fadeInUp" data-wow-delay="1.6s">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/img/team/team-08.jpg" alt="">
-                            <div class="team-overlay">
-                                <div class="overlay-social-icon text-center">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-text">
-                            <h3><a href="#">Rick Grimes</a></h3>
-                            <p>QA, Samsung</p>
-                        </div>
-                    </div>
-
-                </div>
+                </div>                                        
             </div>
         </div>
     </section>
-
 
     <section id="schedules" class="schedule section-padding">
         <div class="container">
@@ -1629,11 +1750,11 @@
     <script data-cfasync="false" src="assets/js/email-decode.min.js"></script>
     <script src="assets/js/jquery-min.js"></script>
     <script>
-        $(document).ready(function(){
-            $('.carousel').carousel({
-                interval: false
-            })
-        });
+        // $(document).ready(function(){
+        //     $('.carousel').carousel({
+        //         interval: true
+        //     })
+        // });
     </script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
