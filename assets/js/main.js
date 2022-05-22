@@ -20,13 +20,13 @@
       /* ==========================================================================
          countdown timer
          ========================================================================== */
-       jQuery('#clock').countdown('2019/02/19',function(event){
-        var $this=jQuery(this).html(event.strftime(''
-        +'<div class="time-entry days"><span>%-D</span> Days</div> '
-        +'<div class="time-entry hours"><span>%H</span> Hours</div> '
-        +'<div class="time-entry minutes"><span>%M</span> Minutes</div> '
-        +'<div class="time-entry seconds"><span>%S</span> Seconds</div> '));
-      });
+      //  jQuery('#clock').countdown('2019/02/19',function(event){
+      //   var $this=jQuery(this).html(event.strftime(''
+      //   +'<div class="time-entry days"><span>%-D</span> Days</div> '
+      //   +'<div class="time-entry hours"><span>%H</span> Hours</div> '
+      //   +'<div class="time-entry minutes"><span>%M</span> Minutes</div> '
+      //   +'<div class="time-entry seconds"><span>%S</span> Seconds</div> '));
+      // });
   
       /* slicknav mobile menu active  */
       $('.mobile-menu').slicknav({
@@ -52,10 +52,10 @@
   
       /* Counter
       ========================================================*/
-      $('.counterUp').counterUp({
-       delay: 10,
-       time: 1000
-      });
+      // $('.counterUp').counterUp({
+      //  delay: 10,
+      //  time: 1000
+      // });
   
   
       /* Back Top Link active
@@ -83,6 +83,26 @@
         const galleryLightbox = GLightbox({
           selector: '.gallery-lightbox'
         });
+
+        // Owl Carousel
+        $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          autoplay:true,
+          autoplayTimeout:5000,
+          autoplayHoverPause:true,
+          responsive:{
+              0:{
+                  items:2
+              },
+              600:{
+                  items:3
+              },
+              1000:{
+                  items:4
+              }
+          }
+      })
   
     });      
   

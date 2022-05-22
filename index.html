@@ -5,11 +5,13 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <!--====== Favicon Icon ======-->
-     <link rel="shortcut icon" href="assets/img/logo/agrabad-logo-designhill_180x80.png" type="image/png">
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/img/logo/agrabad-logo-designhill_180x80.png" type="image/png">
 
     <title>Agrabad Convention Hall</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="assets/glightbox-master/dist/css/glightbox.min.css">
@@ -19,6 +21,10 @@
     <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
@@ -36,14 +42,24 @@
                         <i class="fal fa-phone-alt"></i>
                         +8801715-566671
                     </span>
-                    <i class="fal fa-map-marker-alt"></i>
-                    <span>Fatema Heights (1st Floor) 16, Agrabad C/A, Chittagong-4100</span>
+                    <span class="text">
+                        <i class="fal fa-map-marker-alt"></i>
+                        <span>Fatema Heights (1st Floor) 16, Agrabad C/A, Chittagong-4100</span>
+                    </span>
                 </div>
                 <div class="icon d-none d-md-block">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-linkedin-in"></i>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -59,7 +75,8 @@
                         <span class="icon-menu"></span>
                         <span class="icon-menu"></span>
                     </button>
-                    <a href="index.html" class="navbar-brand"><img src="assets/img/logo/agrabad-logo-designhill_180x80.png" alt=""></a>
+                    <!-- <a href="index.html" class="navbar-brand"><img src="assets/img/logo/agrabad-logo-designhill_180x80.png" alt=""></a> -->
+                    <a href="index.html" class="navbar-brand nav-mod-title"><span>Agrabad Convention Hall</span></a>
                 </div>
                 <div class="collapse navbar-collapse" id="main-navbar">
                     <ul class="navbar-nav mr-auto w-100 justify-content-end">
@@ -94,23 +111,8 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#schedules">
-                                Schedules
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#why">
-                                Why
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#pricing">
-                                Ticket
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#testimonials">
-                                Testimonials
+                            <a class="nav-link page-scroll" href="#sponsors">
+                                Clients
                             </a>
                         </li>
                         <li class="nav-item">
@@ -127,22 +129,22 @@
                     <a class="page-scrool" href="#header-wrap">Home</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="about-us.html">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#team">Speakers</a>
+                    <a class="page-scroll" href="service.html">Service</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#schedules">Schedules</a>
+                    <a class="page-scroll" href="team.html">Management</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#why">Why</a>
+                    <a class="page-scroll" href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#pricing">Ticket</a>
+                    <a class="page-scroll" href="videos.html">Videos</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#testimonials">Testimonials</a>
+                    <a class="page-scroll" href="#sponsors">Clients</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#google-map-area">Contact</a>
@@ -244,66 +246,77 @@
                     <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
                        <div class="image-box">
                            <img src="assets/img/service/wedding.jpg" class="service-img" alt="" srcset="">
+                           <span class="image-overlay"></span>
                        </div>
                        <div class="service-title">
                             <h5>Wedding</h5>
                        </div>
-                       <a href="" class="btn btn-detail">Detail</a>
+                       <a href="service-detail.html" class="btn btn-detail">Detail</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
                     <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
                        <div class="image-box">
                            <img src="assets/img/service/birthday.jpg" class="service-img" alt="" srcset="">
+                           <span class="image-overlay"></span>
                        </div>
                        <div class="service-title">
                             <h5>Birthday</h5>
                        </div>
-                       <a href="#" class="btn btn-detail">Detail</a>
+                       <a href="service-detail.html" class="btn btn-detail">Detail</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
                     <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
                        <div class="image-box">
                            <img src="assets/img/service/engagement.jpg" class="service-img" alt="" srcset="">
+                           <span class="image-overlay"></span>
                        </div>
                        <div class="service-title">
                             <h5>Engagement</h5>
                        </div>
-                       <a href="#" class="btn btn-detail">Detail</a>
+                       <a href="service-detail.html" class="btn btn-detail">Detail</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
                     <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
                        <div class="image-box">
                            <img src="assets/img/service/gaye-holud.jpg" class="service-img" alt="" srcset="">
+                           <span class="image-overlay"></span>
                        </div>
                        <div class="service-title">
                             <h5>Gaye Holud</h5>
                        </div>
-                       <a href="#" class="btn btn-detail">Detail</a>
+                       <a href="service-detail.html" class="btn btn-detail">Detail</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
                     <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
                        <div class="image-box">
                            <img src="assets/img/service/iftar-party.jpg" class="service-img" alt="" srcset="">
+                           <span class="image-overlay"></span>
                        </div>
                        <div class="service-title">
                             <h5>Iftar Party</h5>
                        </div>
-                       <a href="#" class="btn btn-detail">Detail</a>
+                       <a href="service-detail.html" class="btn btn-detail">Detail</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
                     <div class="service-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
                        <div class="image-box">
                            <img src="assets/img/service/office-meeting.jpg" class="service-img" alt="" srcset="">
+                           <span class="image-overlay"></span>
                        </div>
                        <div class="service-title">
                             <h5>Office Meeting</h5>
                        </div>
-                       <a href="#" class="btn btn-detail">Detail</a>
+                       <a href="service-detail.html" class="btn btn-detail">Detail</a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="see-more-button mt-4 text-center">
+                        <a href="service.html" class="view-all-btn">View All</a>
                     </div>
                 </div>
             </div>
@@ -477,7 +490,6 @@
 
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3">
-
                     <div class="team-item text-center wow fadeInUp" data-wow-delay="1.6s">
                         <div class="team-img">
                             <img class="img-fluid" src="assets/img/team/team-08.jpg" alt="">
@@ -498,6 +510,11 @@
                     </div>
 
                 </div>
+                <div class="col-12">
+                    <div class="see-more-button mt-4 text-center">
+                        <a href="team.html" class="view-all-btn">View All</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -513,127 +530,130 @@
                     </div>
                 </div>
             </div>
-            <div class="gallery-padding">
-                <div class="row no-gutters">
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-1.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-1.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+            <div class="row no-gutters">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-1.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-1.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-2.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-2.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-2.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-2.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-3.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-3.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-3.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-3.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-4.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-4.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-4.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-4.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-5.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-5.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-5.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-5.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-6.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-6.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-6.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-6.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-7.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-7.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-7.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-7.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-8.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-8.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-8.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-8.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-9.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-9.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-9.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-9.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-10.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-10.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-10.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-10.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-11.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-11.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-11.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-11.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card wow fadeInUp" data-wow-delay="0.2s">
-                            <img class="card-img-top" src="assets/img/gallery/gallery-12.jpg" alt="Card image cap">
-                            <div class="image-black-cover">
-                                <a href="assets/img/gallery/gallery-12.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
-                                    <i class="fal fa-search-plus"></i>
-                                </a>
-                            </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img class="card-img-top" src="assets/img/gallery/gallery-12.jpg" alt="Card image cap">
+                        <div class="image-black-cover">
+                            <a href="assets/img/gallery/gallery-12.jpg" data-gallery="portfolioGallery" class="item-view gallery-lightbox" title="image title">
+                                <i class="fal fa-search-plus"></i>
+                            </a>
                         </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="see-more-button mt-4 text-center">
+                        <a href="gallery.html" class="view-all-btn">View All</a>
                     </div>
                 </div>
             </div>
@@ -666,12 +686,18 @@
                     <div class="video-item wow fadeInUp" data-wow-delay="0.2s">
                         <iframe width="100%" height="196" src="https://www.youtube.com/embed/8Fbhi2izN0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                     </div>
+                </div>
+                <div class="col-12">
+                    <div class="see-more-button mt-4 text-center">
+                        <a href="videos.html" class="view-all-btn">View All</a>
+                    </div>
                 </div>                                        
             </div>
         </div>
     </section>
 
-    <section id="schedules" class="schedule section-padding">
+
+    <!-- <section id="schedules" class="schedule section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1245,225 +1271,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
-
-    <section id="why" class="why section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title-header text-center">
-                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Why Attend</h1>
-                        <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing <br> elit, sed do eiusmod tempor</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="why-item wow fadeInDown" data-wow-delay="0.2s">
-                        <div class="icon">
-                            <i class="fal fa-glasses"></i>
-                        </div>
-                        <div class="why-content">
-                            <h3><a href="#">Meet Experts</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="why-item wow fadeInDown" data-wow-delay="0.4s">
-                        <div class="icon">
-                            <i class="fal fa-cog"></i>
-                        </div>
-                        <div class="why-content">
-                            <h3><a href="#">Tech Sessions</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="why-item wow fadeInDown" data-wow-delay="0.6s">
-                        <div class="icon">
-                            <i class="fal fa-globe"></i>
-                        </div>
-                        <div class="why-content">
-                            <h3><a href="#">Global Event</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="why-item wow fadeInDown" data-wow-delay="0.8s">
-                        <div class="icon">
-                            <i class="fal fa-gift"></i>
-                        </div>
-                        <div class="why-content">
-                            <h3><a href="#">Free Swags</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="why-item wow fadeInDown" data-wow-delay="1s">
-                        <div class="icon">
-                            <i class="fal fa-comments"></i>
-                        </div>
-                        <div class="why-content">
-                            <h3><a href="#">Networking Session</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="why-item wow fadeInDown" data-wow-delay="1.2s">
-                        <div class="icon">
-                            <i class="fal fa-chart-line"></i>
-                        </div>
-                        <div class="why-content">
-                            <h3><a href="#">Design Insights</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="counter-section section-padding">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-                    <div class="counter wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="icon"><i class="fal fa-microphone"></i></div>
-                        <p>Speakers</p>
-                        <div class="counterUp">22</div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-                    <div class="counter wow fadeInRight" data-wow-delay="0.6s">
-                        <div class="icon"><i class="fal fa-lightbulb"></i></div>
-                        <p>Participate</p>
-                        <div class="counterUp">350</div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-                    <div class="counter wow fadeInRight" data-wow-delay="0.9s">
-                        <div class="icon"><i class="fal fa-briefcase"></i></div>
-                        <p>Sponsors</p>
-                        <div class="counterUp">17</div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-                    <div class="counter wow fadeInRight" data-wow-delay="1.2s">
-                        <div class="icon"><i class="fal fa-mug-hot"></i></div>
-                        <p>Sessions</p>
-                        <div class="counterUp">52</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="pricing" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title-header text-center">
-                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Event Price</h1>
-                        <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing <br> elit, sed do eiusmod tempor</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
-                    <div class="price-block-wrapper text-center wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="colmun-title">
-                            <h5>Super Saver</h5>
-                        </div>
-                        <div class="price">
-                            <!-- <h2>TK.12,500<span>/=</span></h2> -->
-                            <h2>TK.12,500/=</h2>
-                            <p>Event Duration : 4 hours</p>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <li><i class="fal fa-check-circle"></i><span class="text">1 top photographer</span></li>
-                                <li><i class="fal fa-times-circle"></i><span class="text">Unlimited number of Picture</span></li>
-                                <li><i class="fal fa-times-circle"></i><span class="text">Specially Editd Photo: 100 copies
-                                    Print: 4R (4"x6") Matte Print : 100 copies</span></li>
-                                <li><i class="fal fa-times-circle"></i><span class="text">All soft copy of Photos will be deliverd on DVDs or pendrive</span></li>
-                            </ul>
-                            <a href="#" class="btn btn-common">Buy Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
-                    <div class="price-block-wrapper text-center wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="colmun-title">
-                            <h5>Standard</h5>
-                        </div>
-                        <div class="price">
-                            <!-- <h2>95 <span>/=</span></h2> -->
-                            <h2>TK.12,500/=</h2>
-                            <p>Event Duration : 6 hours</p>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <li><i class="fal fa-check-circle"></i><span class="text">2 top photographer</span></li>
-                                <li><i class="fal fa-check-circle"></i><span class="text">Unlimited number of Picture</span></li>
-                                <li><i class="fal fa-check-circle"></i><span class="text">Specially Editd Photo: 100 copies
-                                    Print: 4R (4"x6") Matte Print : 100 copies</span></li>
-                                <li><i class="fal fa-times-circle"></i><span class="text">All soft copy of Photos will be deliverd on DVDs or pendrive</span></li>
-                            </ul>
-                            <a href="#" class="btn btn-common">Buy Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
-                    <div class="price-block-wrapper text-center wow fadeInRight" data-wow-delay="0.4s">
-                        <div class="colmun-title">
-                            <h5>Premium</h5>
-                        </div>
-                        <div class="price">
-                            <!-- <h2>115 <span>/=</span></h2> -->
-                            <h2>TK.12,500/=</h2>
-                            <p>As long as the event goes</p>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <li><i class="fal fa-check-circle"></i><span class="text">2 top photographer</span></li>
-                                <li><i class="fal fa-check-circle"></i><span class="text">Unlimited number of Picture</span></li>
-                                <li><i class="fal fa-check-circle"></i><span class="text">Specially Editd Photo: 100 copies
-                                    Print: 4R (4"x6") Matte Print : 100 copies</span></li>
-                                <li><i class="fal fa-check-circle"></i><span class="text">All soft copy of Photos will be deliverd on DVDs or pendrive</span></li>
-                            </ul>
-                            <a href="#" class="btn btn-common">Buy Plan</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </section> -->
 
 
     <section id="sponsors" class="section-padding">
@@ -1478,79 +1286,35 @@
                 </div>
             </div>
             <div class="row mb-30 wow fadeInDown text-center" data-wow-delay="0.3s">
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="spnsors-logo">
-                        <a href="#"><img class="img-fluid" src="assets/img/sponsors/gold-1.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="spnsors-logo">
-                        <a href="#"><img class="img-fluid" src="assets/img/sponsors/gold-2.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="spnsors-logo">
-                        <a href="#"><img class="img-fluid" src="assets/img/sponsors/gold-3.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="spnsors-logo">
-                        <a href="#"><img class="img-fluid" src="assets/img/sponsors/gold-4.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="testimonials" class="testimonials-section section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title-header text-center">
-                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Testimonials</h1>
-                        <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing <br> elit, sed do eiusmod tempor</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="slide-item wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="inner-box">
-                            <div class="image-thum">
-                                <a href="#"><img src="assets/img/testimonial/img1.png" alt=""></a>
+                <div class="col-12 col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div>
+                            <div class="col-12">
+                                <div class="spnsors-logo">
+                                    <a href="#"><img class="img-fluid" src="assets/img/sponsors/gold-1.png" alt=""></a>
+                                </div>
                             </div>
-                            <h3><a href="#">John Doe</a></h3>
-                            <span>Founder, XenonLabs</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusm tempor incididunt
-                                ut labore dolore magna aliqua enim ad minim veniam quis nostrud.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="slide-item wow fadeInRight" data-wow-delay="0.4s">
-                        <div class="inner-box">
-                            <div class="image-thum">
-                                <a href="#"><img src="assets/img/testimonial/img2.png" alt=""></a>
+                        <div>
+                            <div class="col-12">
+                                <div class="spnsors-logo">
+                                    <a href="#"><img class="img-fluid" src="assets/img/sponsors/gold-2.png" alt=""></a>
+                                </div>
                             </div>
-                            <h3><a href="#">Julia Gilard</a></h3>
-                            <span>Analyst, HP</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusm tempor incididunt
-                                ut labore dolore magna aliqua enim ad minim veniam quis nostrud.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="slide-item wow fadeInRight" data-wow-delay="0.6s">
-                        <div class="inner-box">
-                            <div class="image-thum">
-                                <a href="#"><img src="assets/img/testimonial/img3.png" alt=""></a>
+                        <div>
+                            <div class="col-12">
+                                <div class="spnsors-logo">
+                                    <a href="#"><img class="img-fluid" src="assets/img/sponsors/gold-3.png" alt=""></a>
+                                </div>
                             </div>
-                            <h3><a href="#">Rifat Abbas</a></h3>
-                            <span>Director, Tesla</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusm tempor incididunt
-                                ut labore dolore magna aliqua enim ad minim veniam quis nostrud.</p>
+                        </div>
+                        <div>
+                            <div class="col-12">
+                                <div class="spnsors-logo">
+                                    <a href="#"><img class="img-fluid" src="assets/img/sponsors/gold-4.png" alt=""></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1660,28 +1424,6 @@
         </div>
     </section>
 
-    <div id="subscribe" class="section-padding">
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-md-10 col-lg-7">
-                    <div class="subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
-                        <h2 class="subscribe-title">Get Realtime Event Updates</h2>
-                        <p>A small population of the javan rhino still clings for survival on the <br> Indonesian island
-                            of Java. Successful conservation</p>
-                        <form class="text-center form-inline">
-                            <input class="mb-20 form-control" name="email" placeholder="Your Email Here">
-                            <button type="submit" class="btn btn-common sub-btn" data-style="zoom-in"
-                                data-spinner-size="30" name="submit" id="submit">
-                                <span class="ladda-label">Subscribe</span>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <footer class="footer-2 section-padding">
         <div class="container">
             <div class="row">
@@ -1757,17 +1499,17 @@
         // });
     </script>
     <script src="assets/js/popper.min.js"></script>
+    <!-- <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script> -->
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/jquery.nav.js"></script>
     <script src="assets/js/scrolling-nav.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/jquery.slicknav.js"></script>
-    <script src="assets/js/nivo-lightbox.js"></script>
+    <!-- <script src="assets/js/nivo-lightbox.js"></script> -->
     <script src="assets/glightbox-master/dist/js/glightbox.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
     <script src="assets/js/contact-form-script.min.js"></script>
